@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f6d365, #fda085);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.word-counter-wrapper {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  resize: none;
+  min-height: 150px;
+}
+
+.count-display {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.count-display h5 {
+  margin: 0;
+  font-size: 1rem;
+  color: #495057;
+}
+
+.btn-custom {
+  width: 48%;
+}
+
+@media (max-width: 576px) {
+  .btn-custom {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.btn-outline-dark:hover {
+  background-color: #343a40;
+  color: #fff;
+}
